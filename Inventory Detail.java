@@ -1,14 +1,14 @@
 public class Inventry {
 	private int sid;
 	private String name;
-	private String expdate
+	private String expdate;
 	private String catagory;
 	private String quntity;
 	private String unitPrice;
 	private String reciveDate;
 	private String action;
 	
-	public Inventry(int sid, tring name, String expdate, String catagory, String quntity, String unitPrice, String reciveDate,
+	public Inventry(int sid, String name, String expdate, String catagory, String quntity, String unitPrice, String reciveDate,
 			String action) {
 		
 		this.sid = sid;
@@ -17,7 +17,7 @@ public class Inventry {
 		this.catagory = catagory;
 		this.quntity = quntity;
 		this.unitPrice = unitPrice;
-		this.reciveDate = reciveDate
+		this.reciveDate = reciveDate;
 		this.action = action;
 	}
 
@@ -29,7 +29,7 @@ public class Inventry {
 		this.sid = sid;
 	}
 
-	public String getname() {
+	public String getName() {
 		return name;
 	}
 
@@ -37,7 +37,7 @@ public class Inventry {
 		this.name = name;
 	}
 
-	public string getExpdate() {
+	public String getExpdate() {
 		return expdate;
 	}
 
@@ -46,14 +46,14 @@ public class Inventry {
 	}
 
 	public String getCatagory() {
-		return catagory
+		return catagory;
 	}
 
 	public void setCatagory(String catagory) {
 		this.catagory = catagory;
 	}
 
-	public String getquntity() {
+	public String getQuntity() {
 		return quntity;
 	}
 
